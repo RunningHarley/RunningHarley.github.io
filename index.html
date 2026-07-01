@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 背景动画 -->
+    <div class="bg-animation">
+        <div class="gradient-orb orb1"></div>
+        <div class="gradient-orb orb2"></div>
+        <div class="gradient-orb orb3"></div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于</a></li>
+            <li><a href="#skills">技能</a></li>
+            <li><a href="#contact">联系</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首页 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="greeting">你好，我是</p>
+            <h1 class="name">Yan</h1>
+            <p class="tagline">全栈开发者 | 设计师 | 梦想家</p>
+            <a href="#about" class="btn">了解更多</a>
+        </div>
+        <div class="scroll-indicator">
+            <span>向下滚动</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="section">
+        <h2 class="section-title">关于我</h2>
+        <div class="about-content">
+            <div class="about-card">
+                <div class="avatar">
+                    <img src="https://cdn.nba.com/manage/2022/10/Lebron-2_Text_16x9.png" alt="头像">
+                </div>
+                <div class="about-text">
+                    <h3>你好！</h3>
+                    <p>我是一名热爱技术的开发者，喜欢探索新技术，挑战自我。我致力于创造美观、实用的应用和网站。</p>
+                    <p>空闲时间我喜欢学习新技术、看电影和玩游戏。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能展示 -->
+    <section id="skills" class="section">
+        <h2 class="section-title">技能栈</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>前端开发</h3>
+                <p>HTML, CSS, JavaScript, React, Vue</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚙️</div>
+                <h3>后端开发</h3>
+                <p>Python, Node.js, Go, 数据库</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>UI/UX 设计</h3>
+                <p>Figma, Photoshop, 动画设计</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🛠️</div>
+                <h3>工具</h3>
+                <p>Git, Docker, Linux, VS Code</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我 -->
+    <section id="contact" class="section">
+        <h2 class="section-title">联系我</h2>
+        <div class="contact-content">
+            <p>有问题或想合作？随时联系我！</p>
+            <div class="social-links">
+                <a href="#" class="social-btn github">GitHub</a>
+                <a href="#" class="social-btn email">Email</a>
+                <a href="#" class="social-btn wechat">微信</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>© 2026 Yan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
